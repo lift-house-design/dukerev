@@ -1,0 +1,22 @@
+/*
+--------------------------------------------------
+  HOMEPAGE INTRO
+--------------------------------------------------
+*/
+
+#homepage-intro {
+    height: $homepage-intro-height;
+
+    > .logo {
+        width: 301px;
+        height: 108px;
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        z-index: 1;
+    }
+
+    > .parallax-img {
+        background-image: url($homepage-intro-img);
+    }
+}
